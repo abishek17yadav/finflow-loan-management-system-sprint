@@ -1,0 +1,13 @@
+target/
+*.jar
+.git/
+.idea/
+.vscode/
+mvnw
+mvnw.cmd
+.mvn/
+pom.xml
+## Include necessary files individually to keep image small
+!mvnw
+!.mvn/
+!pom.xml
